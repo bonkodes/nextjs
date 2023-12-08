@@ -1,0 +1,47 @@
+body {
+  background: #e9e9e7;
+}
+* {
+  box-sizing: border-box;
+}
+/* ------------------------------------ */
+
+.login_wrap {
+  border: 1px solid #050505;
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  background: #ffff99;
+}
+.button {
+  width: 150px;
+  height: 30px;
+  background: #548dd4;
+  border: 1px solid rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+.heder_wrap2 {
+  border: 1px solid #ff0101;
+  background: #3c6eab;
+  height: 35px;
+  margin-top: 5px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+/* --------------------------- */
+
+.flex_g {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
